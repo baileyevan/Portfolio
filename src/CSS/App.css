@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.landingPage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleAndSubtitle{
+    
+}
+
+.title{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    transform: translateX(-2%);
+}
+
+.subTitle{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    transform: translateX(6%);
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.individualLink{
+    margin: 0 1%;
+}
