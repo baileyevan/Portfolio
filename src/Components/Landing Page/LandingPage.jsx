@@ -17,7 +17,6 @@ export default function LandingPage() {
             <div className="links">
                 <LinkBar />
             </div>
-            
         </div>
     )
 }

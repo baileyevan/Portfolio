@@ -1,0 +1,15 @@
+import Portfolio from '../../Images/PortfolioImage.PNG';
+
+let projects = [
+    {
+        ProjectId: 1,
+        ProjectTitle: "Portfolio",
+        Image: Portfolio,
+        GitHub: "https://github.com/baileyevan/Portfolio",
+        ProjectLink: "/",
+        Paragraph1: "This is my portfolio website.",
+        Paragraph2: "The main technologies used in this project was React/js."
+    }
+]
+
+export default projects;

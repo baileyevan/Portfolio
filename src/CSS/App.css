@@ -1,18 +1,25 @@
+/* Defaults */
 *{
     margin: 0%;
     padding: 0%;
 }
+body{
+    background-color: rgb(247, 247, 247);
+}
+html{
+    scroll-behavior: smooth;
+}
 
+/* Everything on the landing page */
 .landingPage{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../Images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+    background-size: cover;
 }
 
-.titleAndSubtitle{
-    
-}
 
 .title{
     font-size: 1.5rem;
@@ -20,6 +27,8 @@
     font-weight: lighter;
     text-align: center;
     transform: translateX(-2%);
+    color: rgb(231, 231, 231);
+
 }
 
 .subTitle{
@@ -29,19 +38,125 @@
     font-style: italic;
     text-align: center;
     transform: translateX(6%);
-}
+    color: rgb(197, 197, 197);
 
-a:link, a:visited{
-    text-decoration: none;
-    color: black;
 }
 
 .links{
     font-size: 1.2rem;
     text-align: center;
     margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+.links a:active{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
 }
 
 .individualLink{
-    margin: 0 1%;
+    margin: 0 .5%;
+
+}
+
+/* Everything Projects Page */
+
+.projectPage{
+    margin-top: 5%;
+    height: 100vh;
+}
+
+.projectPageOuterCard{
+    background-color:rgb(194, 194, 194);
+    border-radius: 10px;
+    width: 80%;
+    margin: 1% auto 1% auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.projectsPageTitle{
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+
+}
+
+/* Project Card */
+
+.projectCard{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 30rem;
+    align-items: center;
+    border-radius: 15px;
+    padding: 4%;
+    margin: 5%;
+    color: black;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+/* Image */
+.projectImageDiv{
+    width: 90%;
+    height: 40%;
+    margin: 0% auto 1% auto;
+}
+
+.projectImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 7%;
+
+}
+/* Porject title */
+
+.projectTitleDiv{
+    margin-top: 10%;
+
+}
+
+.projectTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+/* Links */
+.projectLinksDiv{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.projectLinkSpan a{
+    color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+/* Description / Details */
+
+.projectDescriptionDiv{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
