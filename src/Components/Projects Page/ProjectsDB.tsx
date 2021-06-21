@@ -1,4 +1,5 @@
-import Portfolio from '../../Images/PortfolioImage.PNG';
+import Portfolio from "../../Images/PortfolioImage.PNG";
+
 
 let projects = [
     {
@@ -8,8 +9,8 @@ let projects = [
         GitHub: "https://github.com/baileyevan/Portfolio",
         ProjectLink: "/",
         Paragraph1: "This is my portfolio website.",
-        Paragraph2: "The main technologies used in this project was React/js."
-    }
-]
+        Paragraph2: "The main technologies used in this project were: React/js, Typescript, Bootstrap and Font Awesome."
+    },
+];
 
 export default projects;

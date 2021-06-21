@@ -10,7 +10,7 @@ export default function LinkBar() {
                 <a href="Resume.pdf" target="_blank" className="individualLink"><FaRegNewspaper />&nbsp;Resume</a>
                 <a href="https://github.com/baileyevan" target="_blank" className="individualLink" rel="noreferrer"><FaGithub />&nbsp;GitHub</a>
                 <a href="https://www.linkedin.com/in/bailey-reese-620925180/" target="_blank" className="individualLink" rel="noreferrer"><FaLinkedin />&nbsp;Linkedin</a>
-                <a href="#" className="individualLink" ><FaRegEnvelope />&nbsp;Contact</a>
+                <a href="#contactAnchor" className="individualLink" ><FaRegEnvelope />&nbsp;Contact</a>
             </span>
         )
     

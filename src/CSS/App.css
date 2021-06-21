@@ -4,7 +4,7 @@
     padding: 0%;
 }
 body{
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(54, 54, 54);
 }
 html{
     scroll-behavior: smooth;
@@ -77,15 +77,6 @@ html{
     height: 100vh;
 }
 
-.projectPageOuterCard{
-    background-color:rgb(194, 194, 194);
-    border-radius: 10px;
-    width: 80%;
-    margin: 1% auto 1% auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
 .projectsPageTitle{
     text-align: left;
     margin-left: 15%;
@@ -94,7 +85,17 @@ html{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 3rem;
+    color: white;
 
+}
+
+.projectPageOuterCard{
+    background-color:rgb(194, 194, 194);
+    border-radius: 10px;
+    width: 80%;
+    margin: 1% auto 1% auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 /* Project Card */
@@ -122,7 +123,7 @@ html{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    margin-top: 7%;
+    
 
 }
 /* Porject title */
@@ -160,3 +161,134 @@ html{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+/* Contact Page */
+
+.contactPage{
+    height: 80vh;
+}
+
+.contactPageTitleDiv{
+    text-align: left;
+    margin: 0 auto 2% auto;
+}
+
+.contactPageTitle{
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: white;
+}
+
+.contactFormOuterDiv{
+    background-color: rgb(194, 194, 194);
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 2% 0;
+}
+
+.contactPageForm{
+    margin: 3% auto;
+    width: 80%;
+    
+}
+
+.contactFormNameLabel{
+   
+}
+
+.contactFormName{
+
+    
+}
+
+.contactFormName:focus{
+}
+
+.contactFormEmailLabel{
+
+}
+
+.contactFormEmail{
+
+}
+
+.contactFormTextAreaLabel{
+
+}
+
+.contantFormTextArea{
+
+}
+
+.contactFormButton{
+
+}
+
+/* online form styles */
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .form__field {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #505050, #bbbbbb);
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #505050;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }

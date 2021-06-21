@@ -16,7 +16,7 @@ export default function ProjectsPage() {
                     <Row>
                         {projects.map((pro) => (
                             <Col xs={12} sm={12} md={6} lg={4} xl={4} >
-                                <ProjectCard key={pro.ProjectId} src={pro.Image} title={pro.ProjectTitle} link1={pro.GitHub} link2={pro.ProjectLink}  p1={pro.Paragraph1} p2={pro.Paragraph2} />
+                                <ProjectCard ProjectId={pro.ProjectId} Image={pro.Image} ProjectTitle={pro.ProjectTitle} GitHub={pro.GitHub} ProjectLink={pro.ProjectLink}  Paragraph1={pro.Paragraph1} Paragraph2={pro.Paragraph2} />
                             </Col>
                         ))}
                     </Row>
