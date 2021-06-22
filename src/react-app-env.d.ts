@@ -4,4 +4,6 @@ declare module "*.png";
 declare module "*.jpeg";
 declare module "*.gif";
 declare module "*.PNG";
+declare module "*.pdf";
+
 

@@ -5,7 +5,7 @@ import LinkBar from './LinkBar'
 
 export default function LandingPage() {
     return (
-        <div className="landingPage">
+        <div className="landingPage" id="landingPageAnchor">
             <div className="titleAndSubtitle">
                 <div className="title">
                     <Title />
