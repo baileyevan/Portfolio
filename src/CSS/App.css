@@ -10,10 +10,11 @@
     padding: 0%;
     max-width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 body{
     background-color: var(--clr--main);
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
@@ -75,6 +76,14 @@ html{
     
 }
 
+@media (min-width: 1024px) {
+    .landingPage a:hover{
+        color: #f10404;
+        transition: color 300ms;
+    }
+    
+}
+
 .links a{
     text-decoration: none;
     color: var(--clr--secondary);
@@ -88,10 +97,7 @@ html{
     text-decoration: none;
     color: var(--clr--secondary);
 }
-.landingPage a:hover{
-    color: #f10404;
-    transition: color 300ms;
-}
+
 
 .individualLink{
     margin: 0 .5%;
@@ -135,13 +141,18 @@ html{
     background-color: var(--clr--secondary);
     width: auto;
     height: 30rem;
-    align-items: center;
     border-radius: 15px;
     padding: 4%;
     margin: 5%;
     color: black;
     text-align: center;
     box-shadow: 5px 5px 10px black;
+}
+
+@media (max-width: 765px) {
+    .projectCard{
+        width: 100%;
+    }
 }
 
 /* Image */
@@ -266,7 +277,8 @@ html{
     padding-bottom: 3%;
     padding-top: 3%;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px black;}
+    box-shadow: 5px 5px 10px black;
+}
 
 .nameDiv, .emailDiv{
     margin-left: auto;
