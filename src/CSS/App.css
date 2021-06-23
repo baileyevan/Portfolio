@@ -3,12 +3,14 @@
     --clr--secondary: rgb(231, 231, 231);
     --clr--accent1: rgb(194, 194, 194);
 }
+
 /* Defaults */
 *{
     margin: 0%;
     padding: 0%;
     max-width: 100%;
-
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     background-color: var(--clr--main);
