@@ -7,6 +7,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    max-width: 100vw;
 }
 body{
     background-color: var(--clr--main);
@@ -22,9 +23,23 @@ html{
     flex-direction: column;
     justify-content: center;
     background-image: url(../Images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
-    background-size: cover;
+    background-size: 100%;
 }
 
+@media (max-width: 1024px) {
+    .landingPage{
+        background-repeat: no-repeat;
+    }
+}
+
+/* Media Queries */
+
+@media (max-width: 780px) {
+    .landingPage{
+        background-size: cover;
+    }
+    
+}
 
 .title{
     font-size: 1.5rem;
@@ -83,7 +98,8 @@ html{
 
 .projectPage{
     margin-top: 5%;
-    height: 100vh;
+    margin-bottom: 5%;
+    height: 100%;
 }
 
 .projectsPageTitle{
@@ -107,11 +123,13 @@ html{
     padding-bottom: 3%;
 }
 
+
+
 /* Project Card */
 
 .projectCard{
     background-color: var(--clr--secondary);
-    width: 100%;
+    width: auto;
     height: 30rem;
     align-items: center;
     border-radius: 15px;
@@ -127,6 +145,7 @@ html{
     width: 90%;
     height: 40%;
     margin: 0% auto 1% auto;
+    size: 100%;
 }
 
 .projectImage{
@@ -175,10 +194,17 @@ html{
 /* Contact Page */
 
 .contactPage{
-    height: 80vh;
+    height: 100%;
     background-image: url(../Images/arpad-czapp-H424WdcQN4Y-unsplash.jpg);
     background-size: 100%;
-    height: 100vh;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 1170px) {
+    .contactPage{
+        background-size: cover;
+    }
 }
 
 .contactPageTitleDiv{
@@ -342,6 +368,12 @@ html{
 .fullSideBar:hover + .hoverArea + .navBar{
     right: +40px;
     transition: right 500ms;
+}
+
+@media (max-width: 1024px) {
+    .fullSideBar{
+        display: none;
+    }
 }
 
 .navBar{

@@ -21,7 +21,7 @@ export default function ContactForm() {
 
                         <div className="form__group field emailDiv">
                             <input type="email/input" className="form__field contactFormEmail" placeholder="Enter Email..." name="email" id='name' required />
-                            <label className="form__label">Email Address</label>
+                            <label className="form__label">Email</label>
                         </div>
                 
                         <label className="contactFormTextAreaLabel">

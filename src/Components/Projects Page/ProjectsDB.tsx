@@ -11,6 +11,7 @@ let projects = [
         Paragraph1: "This is my portfolio website.",
         Paragraph2: "The main technologies used in this project were: React/js, Typescript, Bootstrap and Font Awesome."
     },
+    
 ];
 
 export default projects;
