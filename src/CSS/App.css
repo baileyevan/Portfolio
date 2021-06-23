@@ -10,13 +10,13 @@
     padding: 0%;
     max-width: 100%;
     box-sizing: border-box;
-    
 }
 body{
     background-color: var(--clr--main);
     overflow-x: hidden;
 }
 html{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -214,6 +214,8 @@ html{
     background-size: 100%;
     padding-bottom: 5%;
     margin-bottom: 5%;
+    overflow-x: scroll;
+
 }
 
 @media (max-width: 1170px) {
@@ -243,6 +245,7 @@ html{
     margin: 0 auto;
     border-radius: 15px;
     padding: 2% 0;
+    overflow-x: none;
 }
 
 @media (max-width: 1200px) {
@@ -278,6 +281,8 @@ html{
     padding-top: 3%;
     border-radius: 15px;
     box-shadow: 5px 5px 10px black;
+    overflow-x: auto;
+
 }
 
 .nameDiv, .emailDiv{
