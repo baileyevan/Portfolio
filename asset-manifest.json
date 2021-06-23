@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d50d0a29.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f535a3be.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f535a3be.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.87968753.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.87968753.js.map",
+    "static/js/2.a4bc871d.chunk.js": "/Portfolio/static/js/2.a4bc871d.chunk.js",
+    "static/js/2.a4bc871d.chunk.js.map": "/Portfolio/static/js/2.a4bc871d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.d50d0a29.chunk.css.map": "/Portfolio/static/css/main.d50d0a29.chunk.css.map",
+    "static/js/2.a4bc871d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a4bc871d.chunk.js.LICENSE.txt",
+    "static/media/PortfolioImage.bbe35534.PNG": "/Portfolio/static/media/PortfolioImage.bbe35534.PNG",
+    "static/media/Resume.23eaa69b.pdf": "/Portfolio/static/media/Resume.23eaa69b.pdf",
+    "static/media/App.css": "/Portfolio/static/media/nubelson-fernandes--Xqckh_XVU4-unsplash.7c7a399d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87968753.js",
+    "static/js/2.a4bc871d.chunk.js",
+    "static/css/main.d50d0a29.chunk.css",
+    "static/js/main.f535a3be.chunk.js"
+  ]
+}
