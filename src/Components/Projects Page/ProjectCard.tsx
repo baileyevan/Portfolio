@@ -1,16 +1,15 @@
 import React from 'react'
-import {FaGithub, FaProjectDiagram} from 'react-icons/fa'
+import { FaGithub, FaProjectDiagram } from 'react-icons/fa'
 
 interface Project {
-    ProjectId: Number,
-    ProjectTitle: String,
-    Image: any,
-    GitHub: String,
-    ProjectLink: String,
-    Paragraph1: String,
-    Paragraph2: String
+    ProjectId: number
+    ProjectTitle: string
+    Image: string 
+    GitHub?: string 
+    ProjectLink?: string 
+    Paragraph1?: string
+    Paragraph2?: string
 }
-
 
 export default function ProjectCard(props: Project) {
 
@@ -24,13 +23,13 @@ export default function ProjectCard(props: Project) {
             </div>
             <div className="projectLinksDiv">
                 <span className="projectLinkSpan">
-                    <a className="projectLinks" href={props.GitHub.toString()} target="_blank" rel="noreferrer"><FaGithub /></a>
-                    <a className="projectLinks" href={props.ProjectLink.toString()}><FaProjectDiagram /></a>
+                    {props.GitHub && <a className="projectLinks" href={props.GitHub} target="_blank" rel="noreferrer"><FaGithub /></a>}
+                    {props.ProjectLink && <a className="projectLinks" href={props.ProjectLink}><FaProjectDiagram /></a>}
                 </span>
             </div>
             <div className="projectDescriptionDiv">
-                <p className="projectDescription">{props.Paragraph1}</p>
-                <p className="projectDescription">{props.Paragraph2}</p>
+                {props.Paragraph1 && <p className="projectDescription">{props.Paragraph1}</p>}
+                {props.Paragraph2 && <p className="projectDescription">{props.Paragraph2}</p>}
             </div>
         </div>
     )
