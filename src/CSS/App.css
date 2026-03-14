@@ -1,62 +1,67 @@
-:root{
+:root {
     --clr--main: rgb(54, 54, 54);
     --clr--secondary: rgb(231, 231, 231);
     --clr--accent1: rgb(194, 194, 194);
 }
 
+
 /* Defaults */
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     max-width: 100%;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: var(--clr--main);
     overflow-x: hidden;
 }
-html{
+
+html {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
+
 /* Everything on the landing page */
-.landingPage{
+
+.landingPage {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../Images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+    background-image: url(../Images/backgroundHeaderPhoto.webp);
     background-size: 100%;
     width: 100%;
 }
 
 @media (max-width: 1024px) {
-    .landingPage{
+    .landingPage {
         background-repeat: no-repeat;
     }
 }
 
+
 /* Media Queries */
 
 @media (max-width: 780px) {
-    .landingPage{
+    .landingPage {
         background-size: cover;
     }
-    
 }
 
-.title{
+.title {
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     text-align: center;
     transform: translateX(-2%);
     color: var(--clr--secondary);
-
 }
 
-.subTitle{
+.subTitle {
     font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -64,55 +69,52 @@ html{
     text-align: center;
     transform: translateX(6%);
     color: var(--clr--secondary);
-
 }
 
-.links{
+.links {
     font-size: 1.2rem;
     text-align: center;
     margin-top: 2%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    
 }
 
 @media (min-width: 1024px) {
-    .landingPage a:hover{
+    .landingPage a:hover {
         color: #f10404;
         transition: color 300ms;
     }
-    
 }
 
-.links a{
-    text-decoration: none;
-    color: var(--clr--secondary);
-}
-.links a:active{
+.links a {
     text-decoration: none;
     color: var(--clr--secondary);
 }
 
-.links a{
+.links a:active {
     text-decoration: none;
     color: var(--clr--secondary);
 }
 
+.links a {
+    text-decoration: none;
+    color: var(--clr--secondary);
+}
 
-.individualLink{
+.individualLink {
     margin: 0 .5%;
-
 }
+
 
 /* Everything Projects Page */
 
-.projectPage{
+.projectPage {
     margin-top: 5%;
     margin-bottom: 5%;
     height: 100%;
 }
 
-.projectsPageTitle{
+.projectsPageTitle {
     text-align: left;
     margin-left: 15%;
     margin-bottom: 3%;
@@ -121,11 +123,10 @@ html{
     font-weight: 300;
     font-size: 3rem;
     color: white;
-
 }
 
-.projectPageOuterCard{
-    background-color:rgb(194, 194, 194);
+.projectPageOuterCard {
+    background-color: rgb(194, 194, 194);
     border-radius: 10px;
     width: 80%;
     margin: 1% auto 1% auto;
@@ -134,10 +135,9 @@ html{
 }
 
 
-
 /* Project Card */
 
-.projectCard{
+.projectCard {
     background-color: var(--clr--secondary);
     width: auto;
     height: 30rem;
@@ -150,55 +150,58 @@ html{
 }
 
 @media (max-width: 765px) {
-    .projectCard{
+    .projectCard {
         width: 100%;
     }
 }
 
+
 /* Image */
-.projectImageDiv{
+
+.projectImageDiv {
     width: 90%;
     height: 40%;
     margin: 0% auto 1% auto;
     size: 100%;
 }
 
-.projectImage{
+.projectImage {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    
-
 }
+
+
 /* Porject title */
 
-.projectTitleDiv{
+.projectTitleDiv {
     margin-top: 10%;
-
 }
 
-.projectTitle{
+.projectTitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
 }
+
+
 /* Links */
-.projectLinksDiv{
+
+.projectLinksDiv {
     text-align: center;
     margin-bottom: 2%;
 }
 
-.projectLinkSpan a{
+.projectLinkSpan a {
     color: black;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 
-
 /* Description / Details */
 
-.projectDescriptionDiv{
+.projectDescriptionDiv {
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
@@ -206,31 +209,31 @@ html{
     font-weight: 300;
 }
 
+
 /* Contact Page */
 
-.contactPage{
+.contactPage {
     height: 100%;
     background-image: url(../Images/arpad-czapp-H424WdcQN4Y-unsplash.jpg);
     background-size: 100%;
     padding-bottom: 5%;
     margin-bottom: 5%;
     overflow-x: scroll;
-
 }
 
 @media (max-width: 1170px) {
-    .contactPage{
+    .contactPage {
         background-size: cover;
     }
 }
 
-.contactPageTitleDiv{
+.contactPageTitleDiv {
     text-align: left;
     margin: 0 auto 2% auto;
     padding-top: 5%;
 }
 
-.contactPageTitle{
+.contactPageTitle {
     text-align: center;
     margin-top: 1%;
     font-family: 'Roboto', sans-serif;
@@ -239,7 +242,7 @@ html{
     color: white;
 }
 
-.contactFormOuterDiv{
+.contactFormOuterDiv {
     background-color: rgb(194, 194, 194);
     width: 35%;
     margin: 0 auto;
@@ -249,46 +252,46 @@ html{
 }
 
 @media (max-width: 1200px) {
-    .contactFormOuterDiv{
+    .contactFormOuterDiv {
         width: 60%;
     }
 }
 
 @media (max-width: 500px) {
-    .contactFormOuterDiv{
+    .contactFormOuterDiv {
         width: 80%;
     }
 }
 
 @media (max-width: 300px) {
-    .contactFormOuterDiv{
+    .contactFormOuterDiv {
         width: 90%;
     }
 }
 
-.contactPageForm{
+.contactPageForm {
     margin: 3% auto;
-    
 }
 
-.innerForm{
+.innerForm {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
     background-color: var(--clr--secondary);
     padding-bottom: 3%;
     padding-top: 3%;
     border-radius: 15px;
     box-shadow: 5px 5px 10px black;
     overflow-x: auto;
-
 }
 
-.nameDiv, .emailDiv{
+.nameDiv,
+.emailDiv {
     margin-left: auto;
     transform: translateX(-50%);
 }
+
 
 /* .contactFormNameLabel{
 }
@@ -309,42 +312,42 @@ html{
 
 } */
 
-.contactFormTextAreaLabel{
+.contactFormTextAreaLabel {
     margin-top: 4%;
     font-size: 1.3rem;
     font-weight: 300;
     color: rgb(73, 73, 73);
-
 }
 
-
-.contantFormTextArea{
+.contantFormTextArea {
     margin-bottom: 4%;
     max-width: 50%;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
-.contactFormButton{
+.contactFormButton {
     max-width: 50%;
     margin: 0 auto;
     margin-bottom: 4%;
 }
 
-.contactFormButton:hover, .contactFormButton:focus{
+.contactFormButton:hover,
+.contactFormButton:focus {
     background-color: var(--clr--main);
-
 }
 
+
 /* online form styles */
+
 .form__group {
     position: relative;
     padding: 15px 0 0;
     margin-top: 10px;
     width: 50%;
-  }
-  
-  .form__field {
+}
+
+.form__field {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     width: 100%;
@@ -356,19 +359,21 @@ html{
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
-  }
-  .form__field::placeholder {
+}
+
+.form__field::placeholder {
     color: transparent;
-  }
-  .form__field:placeholder-shown ~ .form__label {
+}
+
+.form__field:placeholder-shown~.form__label {
     font-size: 1.3rem;
     cursor: text;
     top: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-  }
-  
-  .form__label {
+}
+
+.form__label {
     position: absolute;
     top: 0;
     display: block;
@@ -377,16 +382,17 @@ html{
     color: rgb(90, 90, 90);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-  }
-  
-  .form__field:focus {
+}
+
+.form__field:focus {
     padding-bottom: 6px;
     font-weight: 700;
     border-width: 3px;
     border-image: linear-gradient(to right, #505050, #bbbbbb);
     border-image-slice: 1;
-  }
-  .form__field:focus ~ .form__label {
+}
+
+.form__field:focus~.form__label {
     position: absolute;
     top: 0;
     display: block;
@@ -394,28 +400,31 @@ html{
     font-size: 1rem;
     color: #505050;
     font-weight: 700;
-  }
-  
-  /* reset input */
-  .form__field:required, .form__field:invalid {
+}
+
+
+/* reset input */
+
+.form__field:required,
+.form__field:invalid {
     box-shadow: none;
-  }
+}
 
 
 /* Traveling LinkBar */
 
-.fullSideBar:hover + .hoverArea + .navBar{
+.fullSideBar:hover+.hoverArea+.navBar {
     right: +40px;
     transition: right 500ms;
 }
 
 @media (max-width: 1024px) {
-    .fullSideBar{
+    .fullSideBar {
         display: none;
     }
 }
 
-.navBar{
+.navBar {
     background-color: var(--clr--accent1);
     width: 3rem;
     height: 12rem;
@@ -426,10 +435,9 @@ html{
     transform: translateY(-50%);
     border-radius: 15px 0 0 15px;
     box-sizing: border-box;
-
 }
 
-.hoverArea{
+.hoverArea {
     width: 25px;
     height: 70px;
     z-index: 10;
@@ -440,24 +448,24 @@ html{
     border-radius: 15px 0 0 15px;
     background-color: var(--clr--accent1);
     box-sizing: border-box;
-    
 }
 
-.hoverArea:hover + .navBar{
+.hoverArea:hover+.navBar {
     right: 0px;
     transition: right 500ms;
 }
-.hoverArea:hover{
+
+.hoverArea:hover {
     right: 20px;
-    
     transition-delay: 300ms;
     transition: right 500ms;
 }
-.navBar:hover{
+
+.navBar:hover {
     right: 0px;
 }
 
-.navBarInner{
+.navBarInner {
     height: 90%;
     width: 90%;
     top: 50%;
@@ -468,28 +476,26 @@ html{
     position: absolute;
 }
 
-.iconDiv{
+.iconDiv {
     margin: 5%;
 }
 
-.iconDiv a{
-    text-decoration: none;
-    color: var(--clr--main);
-}
-.iconDiv a:active{
+.iconDiv a {
     text-decoration: none;
     color: var(--clr--main);
 }
 
-.iconDiv a:hover{
+.iconDiv a:active {
+    text-decoration: none;
+    color: var(--clr--main);
+}
+
+.iconDiv a:hover {
     font-size: 1.2rem;
     transition: font-size 300ms;
 }
 
-
-
-.linesDiv{
+.linesDiv {
     margin-top: 15px;
     font-size: 1.3rem;
 }
-
