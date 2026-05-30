@@ -1,1 +1,0 @@
-Bailey Reese's Personal Portfolio!

@@ -1,20 +1,32 @@
-import './CSS/App.css'
-import LandingPage from "./Components/Landing Page/LandingPage";
-import ProjectsPage from './Components/Projects Page/ProjectsPage';
-import {ContactPage} from './Components/Contact Page/ContactPage';
-import NavBar from './Components/TravelingNavBar/NavBar';
+import React from 'react';
+import './styles/globals.css';
+import { useFadeIn } from './hooks/useFadeIn';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
+const App: React.FC = () => {
+  useFadeIn();
 
-function App() {
   return (
-    <div className="App">
-      <LandingPage />
-      <ProjectsPage />
-      <ContactPage />
-      <NavBar />
-      
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
