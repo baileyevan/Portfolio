@@ -172,8 +172,8 @@ export const timeline: TimelineItem[] = [
   },
 ];
 
-const contactEmail = import.meta.env.VITE_CONTACT_EMAIL ?? 'baileyreese123@gmail.com';
-const contactPhone = import.meta.env.VITE_CONTACT_PHONE ?? '678.708.6322';
+const contactEmail = import.meta.env.VITE_CONTACT_EMAIL;
+const contactPhone = import.meta.env.VITE_CONTACT_PHONE;
 
 export const contactInfo: ContactInfo[] = [
   { icon: '✉', label: 'Email', value: contactEmail, href: `mailto:${contactEmail}` },
